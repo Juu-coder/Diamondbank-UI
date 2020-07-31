@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diamondbankapp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="28dp"
+        android:background="@mipmap/ic_launcher_logo"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Diamond"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="61dp"
+        android:layout_height="45dp"
+        android:text="Help"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_email_24"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="30dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="38dp"
+        android:layout_height="28dp"
+        android:text="--"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="357dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="27dp"
+        android:layout_height="33dp"
+        android:text="X"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="395dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="39dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ten"
+        android:text="10"
+        android:textAlignment="center"
+        android:textColor="#F6F3F4"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/diaimage"
+        android:layout_width="429dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="312dp"
+        android:background="@mipmap/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </ImageView>
+
+    <EditText
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:background="@drawable/switch_country"
+        android:text="Switch Country"
+        android:textAlignment="center"
+        android:textColor="#FDFBFB"
+        android:textSize="25sp"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="191dp"
+        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="171dp"
+        android:layout_height="35dp"
+        android:background="@drawable/shape"
+        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:text="  Sign In"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="143dp"
+        android:layout_height="110dp"
+        android:background="@drawable/shape"
+        app:srcCompat="@drawable/ic_baseline_photo_camera_24"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
