@@ -12,7 +12,7 @@
         android:layout_height="28dp"
         android:background="@mipmap/ic_launcher_logo"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="31dp" />
+        tools:layout_editor_absoluteY="24dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -24,11 +24,10 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.035" />
 
     <TextView
         android:id="@+id/textView10"
@@ -87,37 +86,27 @@
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="29dp" />
 
-    <ImageView
-        android:id="@+id/diaimage"
-        android:layout_width="429dp"
-        android:layout_height="442dp"
-        android:layout_marginTop="312dp"
-        android:background="@mipmap/ic_launcher_foreground"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-    </ImageView>
-
     <EditText
         android:layout_width="287dp"
         android:layout_height="48dp"
         android:background="@drawable/switch_country"
+        android:drawableEnd="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
         android:text="Switch Country"
         android:textAlignment="center"
         android:textColor="#FDFBFB"
         android:textSize="25sp"
-        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="191dp"
-        android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_right_24" />
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="199dp" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="171dp"
         android:layout_height="35dp"
         android:background="@drawable/shape"
-        android:drawableRight="@drawable/ic_baseline_keyboard_arrow_right_24"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawablePadding="20dp"
         android:text="  Sign In"
         android:textAlignment="center"
         android:textColor="@android:color/white"
@@ -137,11 +126,138 @@
         tools:layout_editor_absoluteY="65dp" />
 
     <ImageView
-        android:layout_width="70dp"
-        android:layout_height="30dp"
-        android:background="@drawable/ic_launcher_foreground"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:background="@mipmap/flagwave_foreground"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="209dp" />
+        tools:layout_editor_absoluteY="199dp" />
 
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="34dp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/quicktransfer"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="17dp"
+        android:text="Quick Transfer"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/quickbillpayment"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="24dp"
+        android:text="Quick Bill Payment"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/quickloans"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="27dp"
+        android:text="Quick Loans"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="688dp" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/forgotlogindetails"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:layout_width="138dp"
+        android:layout_height="22dp"
+        android:text="Forgot Login Details"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/Changeddevice"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="454dp" />
+
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="20dp"
+        android:text="Changed Device?"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="261dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/openanaccount"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="20dp"
+        android:text="Open an Account"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:background="@drawable/internet_banking"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+    <TextView
+        android:layout_width="123dp"
+        android:layout_height="20dp"
+        android:text="Internet Banking"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="272dp"
+        tools:layout_editor_absoluteY="695dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
